@@ -1,0 +1,38 @@
+.statistics{
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.title{
+    padding: 15px 45px 15px 45px;
+    border-radius: 5%;
+    font-weight: bold;
+    color: gray;
+}
+
+.statisticsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statisticsListItem{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.statisticsListLabel{
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.statisticsListPercent{
+    margin-bottom: 10px;
+}
